@@ -11,13 +11,15 @@ namespace QuestDS2.Models
         public int PlacarId { get; set; }
 
         public virtual Jogador Jogador { get; set; }
+        [Required(ErrorMessage = "O campo Jogador é obrigatório.", AllowEmptyStrings = false)]
         public int JogadorId { get; set; }
 
-        [Display(Description = "Quantidade de pontos obtida:")]
+        [Required(ErrorMessage = "O campo Pontos é obrigatório.", AllowEmptyStrings = false)]
+        [Range(0, 999999)]
         public int Pontos { get; set; }
-        
+
         [DataType(DataType.Date)]
-        [Display(Description = "Data da pontuação:")]
+        [Required(ErrorMessage = "O campo Data é obrigatório.", AllowEmptyStrings = false)]
         public DateTime Data { get; set; }
     }
 }

@@ -27,6 +27,12 @@ namespace QuestDS2.Controllers
             return View(await context.ToListAsync());
         }
 
+        public async Task<IActionResult> Ranking()
+        {
+            var context = _context.placars.Include( p => p.Jogador);
+            return View(await context.ToListAsync());
+        }
+
         // GET: Placars/Details/5
         public async Task<IActionResult> Details(int? id)
         {

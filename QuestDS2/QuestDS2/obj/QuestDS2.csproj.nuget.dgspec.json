@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaffe\\Documents\\Projects\\QuestDS2\\QuestDS2\\QuestDS2.csproj": {}
+    "C:\\Users\\kaffe\\Desktop\\CRUD\\CoreCRUD\\QuestDS2\\QuestDS2\\QuestDS2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaffe\\Documents\\Projects\\QuestDS2\\QuestDS2\\QuestDS2.csproj": {
+    "C:\\Users\\kaffe\\Desktop\\CRUD\\CoreCRUD\\QuestDS2\\QuestDS2\\QuestDS2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaffe\\Documents\\Projects\\QuestDS2\\QuestDS2\\QuestDS2.csproj",
+        "projectUniqueName": "C:\\Users\\kaffe\\Desktop\\CRUD\\CoreCRUD\\QuestDS2\\QuestDS2\\QuestDS2.csproj",
         "projectName": "QuestDS2",
-        "projectPath": "C:\\Users\\kaffe\\Documents\\Projects\\QuestDS2\\QuestDS2\\QuestDS2.csproj",
+        "projectPath": "C:\\Users\\kaffe\\Desktop\\CRUD\\CoreCRUD\\QuestDS2\\QuestDS2\\QuestDS2.csproj",
         "packagesPath": "C:\\Users\\kaffe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaffe\\Documents\\Projects\\QuestDS2\\QuestDS2\\obj\\",
+        "outputPath": "C:\\Users\\kaffe\\Desktop\\CRUD\\CoreCRUD\\QuestDS2\\QuestDS2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kaffe\\AppData\\Roaming\\NuGet\\NuGet.Config",
